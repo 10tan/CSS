@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    background-color: white;
+    color: black;
+    height: 100px;
+}
+#cont{
+    background-color: rgb(14, 99, 90); /* rgb hsl(hue saturation light) colors*/
+    color: rgb(206, 152, 206);
+    height: 30px;
+}
+.image{
+    background-image: url("https://img.icons8.com/cotton/64/000000/football-kick.png");
+    background-repeat: no-repeat;
+     background-size: contain;
+    background-size: 100px 100px;
+    background-position: center;
+    /* background-attachment: fixed; */
+    width:350px;
+    height: 500px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(105, 0, 0);
+
+}

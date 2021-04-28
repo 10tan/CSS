@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin Collapse</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&amp;display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://img.icons8.com/color/48/000000/css3.png" type="image/x-icon">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: black;
+            color: white;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .box1{
+            height: 30px;
+            margin: 40px;
+            background-color: rgb(36, 36, 36);
+
+        }
+        .box2{
+            height: auto;
+            margin: 30px;
+            background-color: rgb(63, 63, 63);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et optio, eius alias sunt id molestias
+        numquam voluptatibus ratione repudiandae exercitationem possimus quo aperiam facilis veritatis earum sit autem
+        recusandae unde architecto ipsam animi dolorum?</div>
+    <div class="box2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt itaque minima quas iste labore
+        esse exercitationem sunt deserunt officiis eius, qui culpa ex, harum odio amet commodi nihil ipsam temporibus at
+        in delectus repellat!</div>
+</body>
+
+</html>
