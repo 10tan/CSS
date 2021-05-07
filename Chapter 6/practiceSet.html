@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDIA QUERIES</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&amp;display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://img.icons8.com/color/48/000000/css3.png" type="image/x-icon">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        header {
+            background-color: rgb(63, 63, 63);
+        }
+        ul{
+            display:inline-grid;
+            grid-template-columns: auto auto;
+            justify-content: end;
+        }
+        ul li{
+            list-style: none;
+            padding: 20px;
+        }
+        .container{
+            background-color: rgb(70, 68, 68);
+            margin: 10px;
+            width: auto;
+            padding: 30px;
+        }
+        @media screen and (max-width:800px) {
+            body{
+                background-color: white;
+                color: black;
+            }
+            .container{
+                background-color: black;
+                color:white;
+            }
+            header{
+                background-color: yellow;
+                color: black;
+            }
+
+        }
+        @media screen and (max-width:500px) {
+            body{
+                background-color: yellow;
+                color: black;
+            }
+            .container{
+                background-color: white;
+                color:black;
+            }
+            header{
+                background-color: black;
+                color: yellow;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>HOME</li>
+                <li>DOWNLOAD</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, non, ab quasi laudantium molestiae assumenda consequuntur dolorem iusto temporibus placeat fugit esse fuga commodi error, dignissimos excepturi cumque repellat accusantium sequi. Nostrum, dicta nihil.
+    </div>
+</body>
+
+</html>

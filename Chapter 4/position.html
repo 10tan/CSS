@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>POSITION</title>
+    <title>POSITIONS</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&amp;display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="https://img.icons8.com/color/48/000000/css3.png" type="image/x-icon">
@@ -20,23 +20,61 @@
             background-color: rgb(0, 0, 0);
             color: rgb(255, 255, 255);
             font-family: 'Montserrat', sans-serif;
+            height: 4444px;
         }
         header{
             height: 50px;
             background-color: rgb(73, 73, 73);
+            position: sticky;
+            top:0;
+            z-index: 10;
         }
         li{
-            display: inline-block;
+            /* display: inline-block; */
+            list-style: square inside;
         }
         .container {
+            z-index: 4;
             color: black;
             background-color: aqua;
-            height: 50vh;
+            height: auto;
             width: 50vw;
             margin: auto;
         }   
         p{
             text-align: center;
+        }
+        .box{
+            height: 25vh;
+            width: 25vh;
+            background-color: rgb(0, 0, 0);
+            border: 2px solid white;
+            border-radius: 100%;
+            text-transform: uppercase;
+            padding: 60px;
+            color:white;
+        }
+        #b1{
+            position: relative;
+            top: -115px;
+            background-color: rgba(0, 0, 0, 0.514);
+            left: 150px;
+            
+        }
+        #b2{
+            position: absolute;
+            top: 28vh;
+            left: 13vh;
+        }
+        #b3{
+            position: fixed;
+        }
+        .l ul{
+            background-color: red;
+        }
+        .l{
+            list-style: circle outside;
+            margin: 10px;
         }
 
     </style>
@@ -55,6 +93,18 @@
     </header>
     <div class="container">
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis facere enim minus quibusdam, consequuntur explicabo expedita mollitia suscipit possimus accusantium? Cupiditate totam reprehenderit modi debitis repudiandae facere quibusdam aut autem optio reiciendis. Assumenda, eum.</p>
+        <div class="box" id="b1">I m a box</div>
+        <div class="box" id="b2">I m a box</div>
+        <div class="box" id="b3">I m a box</div>
     </div>
-    <div class="box"></div>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt incidunt deserunt accusantium illo facere nobis minus, quam a non quae? Asperiores aperiam quam similique ut quos ab consectetur dolore quae.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic alias quasi aut recusandae deleniti. Accusamus recusandae natus nam consequuntur dolores eaque ipsum sit quidem? Et aliquid magni rerum earum commodi molestiae, velit debitis dignissimos deserunt dolorum, recusandae iure voluptatum nostrum accusamus non eveniet doloribus autem tenetur omnis, consequatur fuga? Facilis provident officiis consectetur soluta impedit earum tenetur reprehenderit excepturi suscipit? Autem sit, dignissimos repellendus, perferendis enim tempora assumenda quo sequi blanditiis, magni ipsam illum. Corrupti in reprehenderit possimus assumenda voluptatum, amet animi sequi. Ea error sequi eum sit vel, sed dolor quidem placeat provident nihil aliquid neque earum non perferendis amet odit molestias aspernatur, incidunt ad sunt. Impedit culpa velit rem, id eaque repellendus quod, totam aliquam vel consequatur praesentium quidem saepe animi, voluptatibus blanditiis nulla natus laboriosam et eligendi! Cum, nulla dolorum! Tempora quod maxime, et rerum voluptate illum, voluptas alias blanditiis soluta ipsam quia corrupti expedita accusantium aliquam. Neque aperiam dolorem doloremque ea molestias corrupti voluptatem eos expedita sapiente molestiae consectetur, quae ratione suscipit tempora. At, neque reiciendis veniam minima est exercitationem consequatur, delectus ipsa architecto nulla similique corrupti reprehenderit ratione vitae facilis perspiciatis recusandae enim nobis pariatur maxime asperiores? Incidunt quis hic cupiditate, error magni perspiciatis modi. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque molestias, ad saepe sit neque aspernatur est, praesentium veritatis ex itaque delectus vero ullam excepturi labore? Nobis tempora at porro quis. Sapiente iusto temporibus perspiciatis repellendus accusamus quae voluptatum rerum doloribus! Cum obcaecati iste natus fugit eius. Aliquam atque nobis repudiandae obcaecati illo maiores ut sunt in consequatur vel at maxime, reprehenderit temporibus optio impedit neque quia facilis magni ab quibusdam beatae suscipit velit? Omnis enim incidunt quae quod, veniam expedita harum eius ipsa dicta, repellat tempore, voluptatem quia adipisci optio delectus molestiae facere voluptatum reiciendis asperiores. Repellendus ullam, quia vel tempora, ex amet incidunt, laborum eaque aut eos ipsam aliquam animi maxime. Architecto voluptatem, quod dolores, tenetur ab accusantium ullam perferendis nulla harum dicta quibusdam doloribus maxime nemo molestiae sit consequuntur nisi. Error autem repudiandae laudantium ullam totam ut corrupti ad aperiam rerum, veniam sed officiis aut dolorum consequuntur voluptatibus provident fuga repellendus. Consequatur corrupti eos suscipit sequi assumenda qui accusamus maiores quibusdam ex veritatis tenetur aut quae nulla nostrum, nisi accusantium molestias tempore distinctio. Alias ipsam esse unde nulla, beatae quia sequi ex. Pariatur porro voluptates sed repellendus magni blanditiis esse rerum ea nam error beatae repudiandae sapiente consequuntur iure tempore ab provident nostrum laudantium eum in accusantium consequatur, illum omnis eligendi. Consequatur pariatur tempora quaerat quae vel non maiores, dolorem debitis similique facilis velit. Veritatis, iste molestiae reprehenderit eveniet sint optio quod facilis rerum officia nihil ipsum dolorum consequatur laborum nobis facere, saepe unde porro deleniti officiis nisi aliquam. Quos totam molestias vero maiores aliquid maxime dicta ipsa ipsam similique, fuga error qui labore eum soluta voluptates nesciunt, odit consequatur, nihil optio quia! Repellendus aperiam sint est commodi ducimus debitis neque enim nobis quaerat. Ab voluptatem optio, maiores, cumque atque eos ea id saepe odit reiciendis, incidunt sapiente?
+    <div class="l">
+    <ul>
+        <li>HOME</li>
+        <li>HOME</li>
+        <li>HOME</li>
+        <li>HOME</li>
+    </ul>
+</div>
 </body>

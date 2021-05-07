@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&amp;display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://img.icons8.com/color/48/000000/css3.png" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+            font-family: 'Montserrat', sans-serif;
+        }
+        .container{
+            background-color: rgb(255, 255, 255);
+            width:90%;
+            height: 50vh;
+            padding:20px;
+        }
+
+        .box img{
+            width:300px;
+            height: 300px;
+            transition-duration: 1s;
+            transition-property: all;
+            transition-timing-function: ease-in;
+        }
+        .box img:hover{
+            width: 330px;
+            height: 330px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box" id="box">
+            <img id="im" src="dragon.png" alt="">
+            <button id="btn">TOGGLE</button>
+            <button id="btn1">TOGGLE</button>
+        </div>
+    </div>
+    <script>
+        btn.addEventListener("click", ()=>{
+            box.style.backgroundColor = "black";
+        }) 
+        btn1.addEventListener("click", ()=>{
+            box.style.backgroundColor = "rgb(202, 20, 20)";
+        }) 
+    </script>
+</body>
+
+</html>
